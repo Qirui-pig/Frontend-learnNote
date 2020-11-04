@@ -1,0 +1,21 @@
+.map {
+  width: 100%;
+  height:100vh;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-contaniner{
+  display: grid;
+  grid-template-columns: 20vw 80vw;
+  grid-template-rows: 100vh;
+}
+
+.sidebar{
+  margin-left:15px
+}
